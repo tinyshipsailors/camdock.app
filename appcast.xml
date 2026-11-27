@@ -6,6 +6,19 @@
     <description>CamDock updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.2</title>
+      <description><![CDATA[<ul></li><li>Monitor sidebar: the right-click menu now opens anywhere in the sidebar (rows, headers, empty space, the CamDock name); camera rows keep their own menu</li><li>A camera's right-click menu (sidebar row or tile) now has Notify Me, Open the Notch and Record Clips (Pro) for that camera, plus Show Recordings for just its clips</li><li>Settings › Cameras › a camera: each kind of detection shows when the camera last sent it, or “Not received yet” (orange when it's turned on) — the camera's own list of kinds can't be trusted (some Tapo models list person detection but only ever send motion)</li><li>Detection settings are per camera only: each camera has its own (no more “Use All Cameras' settings” or “custom”), and All Cameras keeps video and alert settings. Cameras that followed All Cameras keep the same settings. A camera's page has Use These Settings for All Cameras…; new cameras start with the settings from the welcome or the last Use for All Cameras</li><li>A clip opened from Recent activity goes back to the live view by itself when it ends: 2 seconds to look at the last frame, then “Back to live in 5” with Stay and Back Now (playing it again cancels it). Clips opened from Recordings stay put</li><li>Settings › Recordings: a Record clips switch for each camera, with its clip count</li><li>Settings › Cameras › a camera: Model shows the make, model and firmware the camera reports</li><li>Send Feedback or Report a Bug… in the menu bar menu, the sidebar's right-click menu and Settings › About opens CamDock's page on Ngindie</li><li>Recordings: clips saved in the recordings folder show up again after CamDock's clip list was lost or reset, read back from their file names; a camera removed and added again under the same name gets its earlier clips back; a clip list CamDock can't read is kept aside instead of overwritten</li></ul>]]></description>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <pubDate>Fri, 27 Nov 2026 10:36:57 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/camdock.app/releases/download/v1.0.2/CamDock-v1.0.2.dmg"
+        sparkle:edSignature="QoEkO2g/5GAhf10G0vTK8KlK94O8Uo0pxiYeaAwxBYoggspPWk14x6gWJto0qGouu3Ot+oQ36Z/MURV5oDHqDw=="
+        length="38890805"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <description><![CDATA[<ul></li><li>Welcome: a second step sets what CamDock does when a camera spots something (notify, open the notch, record clips), which kinds of detection count, and the folder clips are saved in — before the first camera is added</li><li>New installs record clips of detections from the start of the Pro trial (turn it off in the welcome or Settings › Recordings)</li><li>Recordings: with no clips yet, the message fits the situation — on Free, Upgrade to Pro; with no camera recording, Turn On Record Clips… opens Settings › Cameras › All Cameras and points out the Record clips row; once a camera records, it names the cameras and says clips will show up there</li><li>Monitor sidebar: right-click anywhere for Show All Cameras, Show All Recordings, Add Camera, Hide Sidebar and Settings (camera rows keep their own menu)</li><li>Monitor sidebar: the plan ("Pro trial · 7 days left") has its own line under the name and version instead of wrapping</li><li>Monitor sidebar: Recent activity rows with a recording show a blue play mark; hovering a row without one says why (for example, recording is off for that camera)</li></ul>]]></description>
       <sparkle:version>9</sparkle:version>
